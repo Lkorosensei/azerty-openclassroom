@@ -1,8 +1,14 @@
-// lancerJeu()
+/*********************************************************************************
+ * 
+ * Point d'entrée, c'est lui qui intialise le jeu et lance la boucle de jeu. 
+ * 
+ *********************************************************************************/
+
+lancerJeu()
 
 // Methode getElementById
-let inputSaisieTexte = document.getElementById("inputEcriture");
-let btnValider = document.getElementById("btnValiderMot");
+let inputEcriture = document.getElementById("inputEcriture");
+let btnValiderMot = document.getElementById("btnValiderMot");
 console.log("c'est l'endroit où je vais saisir mon texte : ", inputSaisieTexte);
 console.log("c'est le bouton pour valider : ",btnValider);
 
